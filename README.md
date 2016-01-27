@@ -57,7 +57,7 @@ local function drawWorld()
 	love.graphics.rectangle( 'fill', 32, 32, 32, 32 )
 end
 
-function love.load()
+function love.draw()
 	Cam:push()
 		drawWorld()
 	Cam:pop()
